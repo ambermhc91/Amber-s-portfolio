@@ -1,0 +1,40 @@
+.center-fit {
+    max-width: 100%;
+    max-height: 100%;
+    /* margin: auto; */
+    /* object-position: top;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+}
+
+body {
+    margin: 0;
+}
+.show-on-image {
+    position: absolute;
+}
+/* Top left text */
+.top-left {
+    top: 22%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5rem;
+    white-space: nowrap;
+}
+    
+.projects{
+    top: 40%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    font-size: 1.3rem;
+    line-height: 2;
+    text-align: center;
+}
+.container {
+    position: relative;
+    color: #572735;
+    font-family: 'Lobster', cursive;
+    margin: 0%;
+}
